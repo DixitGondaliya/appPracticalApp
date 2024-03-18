@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Qfon</string>
+    <string name="qfon">Qfon</string>
+    <string name="thai_airways">Thai Airways</string>
+    <string name="id">id</string>
+    <string name="_64078e606a2c7c171accc68f">64078e606a2c7c171accc68f</string>
+    <string name="name">name</string>
+    <string name="john_doe12">John Doe12</string>
+    <string name="trips">trips</string>
+    <string name="_500">500</string>
+    <string name="country">country</string>
+    <string name="thailand">thailand</string>
+    <string name="www_thaiairways_com">www.thaiairways.com</string>
+    <string name="website">website</string>
+    <string name="head_quaters">head_quaters</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="slogan_smooth_as_silk_i_fly_thai">slogan : Smooth as silk / I Fly THAI</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="search_by_name_or_country">Search by name or country</string>
+</resources>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt_airwaysname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/thai_airways"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold"  />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_airwaysname"
+        android:paddingHorizontal="@dimen/_10sdp"
+        android:id="@+id/linear_id"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_weight=".4"
+            android:background="@drawable/bg_blue"
+            android:gravity="center"
+            android:padding="@dimen/_7sdp"
+            android:text="@string/id"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10sdp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight=".6"
+            android:background="@drawable/bg_light_blue_gray"
+            android:gravity="center"
+            android:padding="@dimen/_7sdp"
+            android:text="@string/_64078e606a2c7c171accc68f"
+            android:textAllCaps="true"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/_10sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_id"
+        android:paddingHorizontal="@dimen/_10sdp"
+        android:id="@+id/linear_name"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_weight=".4"
+            android:background="@drawable/bg_blue"
+            android:gravity="center"
+            android:padding="@dimen/_7sdp"
+            android:text="@string/name"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10sdp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight=".6"
+            android:background="@drawable/bg_light_blue_gray"
+            android:gravity="center"
+            android:padding="@dimen/_7sdp"
+            android:text="@string/john_doe12"
+            android:textAllCaps="true"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/_10sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_trips"
+        android:layout_below="@id/linear_name"
+        android:paddingHorizontal="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_weight=".4"
+            android:background="@drawable/bg_blue"
+            android:gravity="center"
+            android:padding="@dimen/_7sdp"
+            android:text="@string/trips"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10sdp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_trips"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight=".6"
+            android:background="@drawable/bg_light_blue_gray"
+            android:gravity="center"
+            android:padding="@dimen/_7sdp"
+            android:text="@string/_500"
+            android:textAllCaps="true"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/_10sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearairlogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_trips"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:background="@drawable/bg_airlogo">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_airlogo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_below="@id/linear_trips"
+            android:layout_margin="@dimen/_20sdp"
+            android:src="@drawable/evaairlogo" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt_slogan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/linearairlogo"
+        android:text="@string/slogan_smooth_as_silk_i_fly_thai"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12sdp"  />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_country"
+        android:layout_below="@id/txt_slogan"
+        android:paddingHorizontal="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_weight=".4"
+            android:background="@drawable/bg_blue"
+            android:gravity="center"
+            android:padding="@dimen/_7sdp"
+            android:text="@string/country"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10sdp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_country"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight=".6"
+            android:background="@drawable/bg_light_blue_gray"
+            android:gravity="center"
+            android:padding="@dimen/_7sdp"
+            android:text="@string/thailand"
+            android:textAllCaps="true"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/_10sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_headquarters"
+        android:layout_below="@id/linear_country"
+        android:paddingHorizontal="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_weight=".4"
+            android:background="@drawable/bg_blue"
+            android:gravity="center"
+            android:padding="@dimen/_7sdp"
+            android:text="@string/head_quaters"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10sdp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_headquarters"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight=".6"
+            android:background="@drawable/bg_light_blue_gray"
+            android:gravity="center"
+            android:padding="@dimen/_7sdp"
+            android:text="jom phol subdistrict  "
+            android:textAllCaps="true"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/_10sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_website"
+        android:layout_below="@id/linear_headquarters"
+        android:paddingHorizontal="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_weight=".4"
+            android:background="@drawable/bg_blue"
+            android:gravity="center"
+            android:padding="@dimen/_7sdp"
+            android:text="@string/website"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10sdp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_website"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight=".6"
+            android:background="@drawable/bg_light_blue_gray"
+            android:gravity="center"
+            android:padding="@dimen/_7sdp"
+            android:text="@string/www_thaiairways_com"
+            android:textAllCaps="true"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/_10sdp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_below="@id/linear_website"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:background="@color/black"/>
+
+</RelativeLayout>
